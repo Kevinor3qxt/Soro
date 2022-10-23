@@ -1,6 +1,6 @@
 local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
 
-local win = lib:Window("Prevail X Remastered (serversided version)",Color3.fromRGB(44, 120, 224), Enum.KeyCode.V)
+local win = lib:Window("Prison Life (private script)",Color3.fromRGB(44, 120, 224), Enum.KeyCode.V)
 
 local tab = win:Tab("Main")
 
@@ -450,4 +450,4 @@ end)
 settings:Button("Made By 3qxt#9919", function()
     print('3qxt#9919')
 end)
-lib:Notification("Notice", "Welcome to prevail x remastered (private)", "Enter")
+lib:Notification("Notice", "Welcome to my private script (by 3qxt#9919)", "Enter")
