@@ -3178,6 +3178,9 @@ getgenv().DisableScript = function()
 	end)
 end
 end)
+tab_1:Button('A little Bit better Prison Life cmds', function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
 tab_1:Button('Faded (Da hood)', function()
     --Faded listed
 _G.Toggles = "V" -- You can put any keybind
