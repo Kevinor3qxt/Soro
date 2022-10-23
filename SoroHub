@@ -485,6 +485,14 @@ TPtab:Button("Enterance of prison", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(477.512024, 98.039917, 2214.15747, -0.0536142923, 5.9843849e-08, 0.99856174, 5.15894315e-12, 1, -5.99297678e-08, -0.99856174, -3.20794036e-09, -0.0536142923)
 end)
 
+local teamtab = win:Tab("Teams")
+
+teamtab:Button("neutral", function()
+     		workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+		Notify("Become neutral", Color3.fromRGB(0, 255, 0), "Success")
+end)
+
+
 
 local settings = win:Tab("Creds/Settings")
 
